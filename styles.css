@@ -1,3 +1,65 @@
+/*--------------------Formatos generales-------------------------*/
+
+
+/*--------------------HEADER-------------------------------------*/
+
+.contenedor_header{
+border: solid 5px red;
+width: 100%;
+display: flex;
+position: relative;
+
+
+}
+.contenedor_titulo{
+  border: solid 3px blue;
+  display: flex;
+  position: relative;
+
+  
+}
+.contenedor_info{
+
+  
+  border: solid 1px yellow;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: right;
+
+}/
+.contenedor_info .contact_telefono{
+  border: solid 3px green;
+  
+  position: relative;
+
+ 
+  width: 300px;
+  
+}
+.contenedor_info .contact_direccion{
+  border: solid 3px green;
+ 
+  position: relative;
+
+  justify-items: center;
+  width: 100%;
+}
+
+
+/*------------*navegación-------------------------------------*/
+
+
+.contenedor_nav{
+  border: solid 2px green;
+  
+
+}
+
+
+
+
+
+/***********************************************************************/
 @charset "UTF-8";
 
 @font-face {
